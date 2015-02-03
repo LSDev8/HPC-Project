@@ -4,7 +4,8 @@ Projet : HPC
 Participants
 ------------
 
-> Alexis BECIRSPAHIC    
+> Alexis BECIRSPAHIC  
+> Renaud SCHNABELE   
 > Benjamin BIELLE     
 
 Liens Utiles
