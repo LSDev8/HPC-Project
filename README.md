@@ -4,11 +4,6 @@ Projet : HPC
 Participants
 ------------
 
-GROUPE 1
-> Alexis BECIRSPAHIC  
-> Renaud SCHNABELE   
-
-GROUPE 2
 > Benjamin BIELLE     
 > Daniel BOURDREZ     
 
