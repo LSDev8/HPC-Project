@@ -50,6 +50,7 @@ NBODY_DIRECT_INC=/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direc
 INC_DIR += -I$(NBODY_DIRECT_INC)
 BIN=bin/
 OBJ=lib/
+LIB=lib/
 
 ### Optimisation:
 OPTIM_FLAGS = -O3 -ffast-math
@@ -129,12 +130,19 @@ SRCS = $(subst $(OBJ),$(NBODY_DIRECT_SRC),$(OBJECTS:.o=.c))
 #--------------------------------------- Rules: ----------------------------------------#
 #---------------------------------------------------------------------------------------#
 
-all: init .remove.o $(OBJECTS) direct 
+all: directories init .remove.o $(OBJECTS) direct 
 	@echo ""
 	@echo "     *************** Compilation is over! ***************"
 	@echo ""
 
 # What must be done before everything:
+directories: ${BIN} ${LIB}
+
+${BIN}:
+	mkdir -p ${BIN}
+${LIB}:
+	mkdir -p ${LIB}
+
 init:
 	@echo ""
 	@echo "Compiling with $(CC)= `which $(CC)` ..."
