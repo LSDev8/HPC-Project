@@ -218,7 +218,8 @@ clean:
 	@echo ""
 
 vclean: net.o net.bin clean 
-	rm -f .remove.o .depend 
+	rm -f .remove.o .depend
+	rm -r ${BIN} ${LIB}
 
 
 .PHONY: all init direct doc net.o net.bin clean vclean 
