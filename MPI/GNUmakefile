@@ -35,7 +35,7 @@
 #---------------------------------------------------------------------------------------#
 # Compiler options:
 #---------------------------------------------------------------------------------------#
-CC=gcc 
+CC=mpicc 
 
 # For the compiler:
 LIB_DIR=
@@ -46,7 +46,7 @@ WARNINGS=-Wall #-Winline
 
 # Directories:
 NBODY_DIRECT_SRC=src/
-NBODY_DIRECT_INC=/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/
+NBODY_DIRECT_INC=include/
 INC_DIR += -I$(NBODY_DIRECT_INC)
 BIN=bin/
 OBJ=lib/
@@ -214,7 +214,7 @@ net.bin:
 clean: 
 	@echo "" 
 	@echo "*** Clean: ***"
-	rm -f core *~ ${NBODY_DIRECT_SRC}*~ ${NBODY_DIRECT_INC}*~ 
+	rm -f core *~ ${NBODY_DIRECT_SRC}*~ ${NBODY_DIRECT_INC}*~
 	@echo ""
 
 vclean: net.o net.bin clean 
