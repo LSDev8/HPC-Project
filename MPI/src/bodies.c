@@ -1,5 +1,5 @@
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/bodies.h"
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/IO.h"
+#include "bodies.h"
+#include "IO.h"
 
 
 

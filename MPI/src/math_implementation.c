@@ -1,4 +1,4 @@
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/math_implementation.h"
+#include "math_implementation.h"
 
 
 

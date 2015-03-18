@@ -3,8 +3,8 @@
 /* #include <string.h> */
 #include <sys/stat.h>
 
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/direct_method.h"
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/IO.h" 
+#include "direct_method.h"
+#include "IO.h" 
 
 
 /* For FMB_Info.save: */

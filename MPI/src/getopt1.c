@@ -26,7 +26,7 @@
 #endif
 
 /* #include "getopt.h"*/
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/gnugetopt.h" 
+#include "gnugetopt.h" 
 
 
 #if !defined __STDC__ || !__STDC__

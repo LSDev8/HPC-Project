@@ -1,6 +1,6 @@
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/direct_method.h"
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/IO.h" 
-
+#include "direct_method.h"
+#include "IO.h" 
+#include "varMPI.h"
 
 
 /* Here are the initialization of the global variables: */
@@ -142,8 +142,56 @@ void Direct_method_Data_bodies(bodies_t *p_b){
 
 }
 
+/*[ADD]*/
+/*#############################################################################*/
+/******************/
+/* MPI_SEND_DATAS */
+/******************/
+void mpi_isend(bodies_t *out, int to, MPI_Request *req_send)
+{
+  /* SEND POS X*/
+  MPI_Isend(out->p_pos_x, out->nb_bodies, MPI_FLOAT, to, 0, MPI_COMM_WORLD, &req_send[0]);
+  
+  /* SEND POS Y*/
+  MPI_Isend(out->p_pos_y, out->nb_bodies, MPI_FLOAT, to, 0, MPI_COMM_WORLD, &req_send[1]);
 
+  /* SEND POS Z*/
+  MPI_Isend(out->p_pos_z, out->nb_bodies, MPI_FLOAT, to, 0, MPI_COMM_WORLD, &req_send[2]);
 
+  /* SEND VALUES*/
+  MPI_Isend(out->p_values, out->nb_bodies, MPI_FLOAT, to, 0, MPI_COMM_WORLD, &req_send[3]);
+}
+
+/******************/
+/* MPI_RECV_DATAS */
+/******************/
+void mpi_irecv(bodies_t *in, int from, MPI_Request *req_recv)
+{
+  /* RECV POS X*/
+  MPI_Irecv(in->p_pos_x, in->nb_bodies, MPI_FLOAT, from, 0, MPI_COMM_WORLD, &req_recv[0]);
+  
+  /* RECV POS Y*/
+  MPI_Irecv(in->p_pos_y, in->nb_bodies, MPI_FLOAT, from, 0, MPI_COMM_WORLD, &req_recv[1]);
+
+  /* RECV POS Z*/
+  MPI_Irecv(in->p_pos_z, in->nb_bodies, MPI_FLOAT, from, 0, MPI_COMM_WORLD, &req_recv[2]);
+
+  /* RECV VALUES*/
+  MPI_Irecv(in->p_values, in->nb_bodies, MPI_FLOAT, from, 0, MPI_COMM_WORLD, &req_recv[3]);
+}
+
+/************/
+/* MPI_WAIT */
+/************/
+void mpi_iwait(MPI_Request *req)
+{
+  MPI_Status status;
+  MPI_Wait(&req[0], &status);
+  MPI_Wait(&req[1], &status);
+  MPI_Wait(&req[2], &status);
+  MPI_Wait(&req[3], &status);
+}
+/*#############################################################################*/
 
 
 /*********************************************************************************************
@@ -173,11 +221,50 @@ void Direct_method_Compute(){
 }
 
 
+/*[ADD]*/
+/*#############################################################################*/
+/****************************/
+/* DIRECT_METHOD_COMPUTE_PAR */
+/****************************/
+void Direct_method_Compute_Par(bodies_t * current, bodies_t * next)
+{
+  bodies_t *tmp;
+  int succ = (rank+1)%mpi_p;
+  int prev = (rank-1+mpi_p)%mpi_p;
+  int pas = 1;
+  MPI_Request req_send[4];
+  MPI_Request req_recv[4];
+  
+  /*pas = 0*/
+  mpi_isend(&bodies, succ, req_send);
+  mpi_irecv(next, prev, req_recv);
+  bodies_Compute_own_interaction(&bodies);
+  mpi_iwait(req_send);
+  mpi_iwait(req_recv);
 
-
-
-
-
+  /*on switch les tableaux*/
+  tmp = next;
+  next = current;
+  current = tmp;
+  
+  while(pas < mpi_p)
+    {
+      mpi_isend(current, succ, req_send);
+      mpi_irecv(next, prev, req_recv);
+      
+      bodies_Compute_own_interaction_par(&bodies,current,rank);
+      mpi_iwait(req_send);
+      mpi_iwait(req_recv);
+      
+      /*on switch les tableaux*/
+      tmp = next;
+      next = current;
+      current = tmp;
+      
+      pas++;
+    }
+}
+/*#############################################################################*/
 
 
 /*********************************************************************************************

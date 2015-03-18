@@ -1,5 +1,5 @@
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/IO.h"
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/parameters.h"
+#include "IO.h"
+#include "parameters.h"
 
 #ifdef _FMB_NO_NEMO_ 
 

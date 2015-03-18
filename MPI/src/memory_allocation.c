@@ -1,8 +1,8 @@
 #include <errno.h>
 
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/memory_allocation.h"
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/parameters.h"
-#include "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/NBODY_direct/include/IO.h"
+#include "memory_allocation.h"
+#include "parameters.h"
+#include "IO.h"
 
 
 char perror_mes[PERROR_MES_SIZE];
