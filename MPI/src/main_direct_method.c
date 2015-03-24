@@ -5,7 +5,7 @@
 
 #include "direct_method.h"
 #include "IO.h" 
-
+#include "varMPI.h"
 
 /* For FMB_Info.save: */
 #define RESULTS_DIR "/tmp/NBODY_direct_results_LSDev8Grp2/"
@@ -45,6 +45,7 @@ bodies_t *current_b; //pointeur vers les structures tampon
 bodies_t *next_b;    //pointeur vers les structures tampon
 REAL_T tstart ,tend , tnow, dt ;
 int sum = 0; 
+int i;
 
 /*******************/
 /* INITIALIZE NODE */
@@ -406,7 +407,7 @@ int main(int argc, char **argv){
 #define TMP_STRING_LENGTH 10
 	char step_number_string[TMP_STRING_LENGTH];
 	int  results_file_length = 0;
-	
+       
 	/* Find the relative filename in 'data_file': */
 	char *rel_data_file = strrchr(data_file, '/') + 1 ; /* find last '/' and go to the next character */
 	
@@ -449,18 +450,18 @@ int main(int argc, char **argv){
       /*Direct_method_Sum(NULL, nb_steps, &bodies, total_potential_energy);*/
       /*[ADD]*/
       /*#############################################################################*/
-      sumx = 0;
-      sumy = 0;
-      sumz = 0;
+      int sumx = 0;
+      int sumy = 0;
+      int sumz = 0;
       for(i=0;i<bodies.nb_bodies;i++)
 	{
 	  sumx+=bodies.p_fx[i];
 	  sumy+=bodies.p_fy[i];
 	  sumz+=bodies.p_fz[i];
 	}
-      t_sumx = 0;
-      t_sumy = 0;
-      t_sumz = 0;
+      int t_sumx = 0;
+      int t_sumy = 0;
+      int t_sumz = 0;
       MPI_Reduce(&sumx, &t_sumx, 1, MPI_LONG_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
       MPI_Reduce(&sumy, &t_sumy, 1, MPI_LONG_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
       MPI_Reduce(&sumz, &t_sumz, 1, MPI_LONG_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
