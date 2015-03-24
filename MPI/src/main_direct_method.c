@@ -497,7 +497,13 @@ int main(int argc, char **argv){
 
 
   Direct_method_Terminate();
-
+  
+  /*[ADD]*/
+  /*#############################################################################*/
+  bodies_Free(current_b);
+  bodies_Free(next_b);
+  MPI_Finalize();
+  /*#############################################################################*/
 
   /********************** Close FILE* and free memory before exiting: ***********************/
   if (argc == 3)
