@@ -35,7 +35,7 @@
 #---------------------------------------------------------------------------------------#
 # Compiler options:
 #---------------------------------------------------------------------------------------#
-CC=mpicc 
+CC=mpicc
 
 # For the compiler:
 LIB_DIR=
@@ -214,7 +214,7 @@ net.bin:
 clean: 
 	@echo "" 
 	@echo "*** Clean: ***"
-	rm -f core *~ ${NBODY_DIRECT_SRC}*~ ${NBODY_DIRECT_INC}*~
+	rm -f core *~ ${NBODY_DIRECT_SRC}*~ ${NBODY_DIRECT_INC}*~ 
 	@echo ""
 
 vclean: net.o net.bin clean 
