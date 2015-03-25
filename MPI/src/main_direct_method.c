@@ -45,7 +45,6 @@ bodies_t *current_b; //pointeur vers les structures tampon
 bodies_t *next_b;    //pointeur vers les structures tampon
 REAL_T tstart ,tend , tnow, dt ;
 int sum = 0; 
-int i;
 
 /*******************/
 /* INITIALIZE NODE */
@@ -297,7 +296,13 @@ int main(int argc, char **argv){
 
   /* Timers: */
   double t_start = 0.0, t_end = 0.0;
-
+  long i = 0;
+  long double sumx = 0;
+  long double sumy = 0;
+  long double sumz = 0;
+  long double t_sumx = 0;
+  long double t_sumy = 0;
+  long double t_sumz = 0;
 
   /********************************* Options on command line: ***************************************/
   f_output = stdout; /* by default */
@@ -450,18 +455,18 @@ int main(int argc, char **argv){
       /*Direct_method_Sum(NULL, nb_steps, &bodies, total_potential_energy);*/
       /*[ADD]*/
       /*#############################################################################*/
-      int sumx = 0;
-      int sumy = 0;
-      int sumz = 0;
+      sumx = 0;
+      sumy = 0;
+      sumz = 0;
       for(i=0;i<bodies.nb_bodies;i++)
 	{
 	  sumx+=bodies.p_fx[i];
 	  sumy+=bodies.p_fy[i];
 	  sumz+=bodies.p_fz[i];
 	}
-      int t_sumx = 0;
-      int t_sumy = 0;
-      int t_sumz = 0;
+      t_sumx = 0;
+      t_sumy = 0;
+      t_sumz = 0;
       MPI_Reduce(&sumx, &t_sumx, 1, MPI_LONG_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
       MPI_Reduce(&sumy, &t_sumy, 1, MPI_LONG_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
       MPI_Reduce(&sumz, &t_sumz, 1, MPI_LONG_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
