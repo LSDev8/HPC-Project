@@ -13,6 +13,16 @@ Liens Utiles
 > https://github.com/LSDev8/     
 > http://lsdev8.github.io/     
 
+Help
+----
+
+Pour lancer les scripts veuiller taper les commandes suivantes.
+
+```sh
+$ ./launch.sh fichier_data; ./GLNEMO2.sh fichier_data
+```
+la liste des fichiers data se trouve dans le fichier listFILE.txt
+
 Licence
 -------
 
