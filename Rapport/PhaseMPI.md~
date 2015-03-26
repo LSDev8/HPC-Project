@@ -1,6 +1,0 @@
-# Explication Phase MPI
-
-Pour effectuer la parallélisation du programme séquentiel, nous avons décider de réprésenter en mémoire les données sous forme d'une structure de tableaux avec une topologie en anneau.
-
-La structure ne contient que les positions et les masses des corps. Les communications sont faites dans le standard non-bloquant avec recouvrement des temps de communication par le calcul.
-
