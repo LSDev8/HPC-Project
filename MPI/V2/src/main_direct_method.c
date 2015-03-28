@@ -36,7 +36,7 @@ COORDINATES_T *pjsend_fy;
 COORDINATES_T *pjsend_fz;
 
 /* For FMB_Info.save: */
-#define RESULTS_DIR "/tmp/NBODY_direct_results_BOURDEZ_BIELLE/"
+#define RESULTS_DIR "/tmp/NBODY_direct_results_BOURDREZ_BIELLE/"
 #define RESULTS_FILE "results_"
 
 #define POS(a) (a) >= 0 ? (a) : ((a) + nb_proc)
