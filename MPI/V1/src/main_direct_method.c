@@ -407,6 +407,8 @@ int main(int argc, char **argv){
     /************************* Save the positions and the forces: ***************************/
     if (FMB_Info.save){
       
+      gather_to_root();
+
       if (results_file == NULL){
 	/* The 'results' filename has not been set yet: */
 #define TMP_STRING_LENGTH 10
