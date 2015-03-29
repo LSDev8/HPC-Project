@@ -14,8 +14,8 @@ for i in 64 128 256 512 1024 2048 4096
 do
     echo "## SEQUENTIEL ##"
     ../Sequentiel/bin/NBODY_direct --in=/users/Enseignants/fortin/Public/HPC_fev2015/Projet/data/${FILE}_$i.nemo --tend=6.0 --dt=0.1 --soft=0.01 --sum --save > logs/results_seq.log
-    echo "## 04 proc -> 04 machines ##"
-    mpirun -n ${NBPROC} ../MPI/V2/bin/NBODY_direct --in=/users/Enseignants/fortin/Public/HPC_fev2015/Projet/data/${FILE}_$i.nemo --tend=6.0 --dt=0.1 --soft=0.01 --sum --save > logs/results_par.log
+    echo "## 0${NBPROC} proc -> 08 machines ##"
+    mpirun --hostfile ../MPI/V1/hostfile/hostfile-301-08-n ${NBPROC} ../MPI/V2/bin/NBODY_direct --in=/users/Enseignants/fortin/Public/HPC_fev2015/Projet/data/${FILE}_$i.nemo --tend=6.0 --dt=0.1 --soft=0.01 --sum --save > logs/results_par.log
 
     tseq=`tail -n 5 logs/results_seq.log | head -n 1 | cut -f4 -d' '`
     tpar=`tail -n 5 logs/results_par.log | head -n 1 | cut -f4 -d' '`
