@@ -376,7 +376,7 @@ int main(int argc, char **argv){
     t_start = my_gettimeofday();
 
     /* Computation: */
-    Direct_method_Compute();
+    Direct_method_Compute_Par(current_b, next_b);
    
     /* End timer: */
     t_end = my_gettimeofday();
