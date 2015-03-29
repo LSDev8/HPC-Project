@@ -1,0 +1,941 @@
+*** Compute own interactions of the box defined in "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/data/cube_512.nemo" ***.
+Softening parameter: 1.0e-02
+*** Compute own interactions of the box defined in "/users/Enseignants/fortin/Public/HPC_fev2015/Projet/data/cube_512.nemo" ***.
+Softening parameter: 1.0e-02
+Bodies number: 512
+Bodies number: 512
+Start Time : 0.000000 	 End Time : 6.000000 	 dt : 0.100000 
+Number of steps: 60
+Start Time : 0.000000 	 End Time : 6.000000 	 dt : 0.100000 
+Number of steps: 60
+Softening parameter: 1.0e-02
+
+#######################################################################
+Time now ( Step number) : 0.000000 (0) 
+Computation time = 0.000248 seconds
+Interactions computed: 65280
+  Nb interactions / second: 263273235.692
+  Gflop/s = 3.028 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000001423814,	-0.000000004330559,	0.000000011310021)
+
+#######################################################################
+Time now ( Step number) : 0.000000 (0) 
+Computation time = 0.000226 seconds
+Interactions computed: 65280
+  Nb interactions / second: 288822958.987
+  Gflop/s = 3.321 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 0.100000 (1) 
+
+#######################################################################
+Time now ( Step number) : 0.100000 (1) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000015629212,	-0.000000007835297,	-0.000000014520083)
+
+#######################################################################
+Time now ( Step number) : 0.200000 (2) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 0.200000 (2) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 0.300000 (3) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000017640104,	0.000000018661012,	-0.000000003308742)
+
+#######################################################################
+Time now ( Step number) : 0.300000 (3) 
+Computation time = 0.000252 seconds
+
+#######################################################################
+Time now ( Step number) : 0.400000 (4) 
+Interactions computed: 65280
+  Nb interactions / second: 259038945.241
+  Gflop/s = 2.979 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+sum (Fx, Fy, Fz) = (0.000000020212610,	-0.000000007722520,	0.000000010088797)
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 0.400000 (4) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000003441983,	0.000000004106141,	-0.000000000998170)
+
+#######################################################################
+Time now ( Step number) : 0.500000 (5) 
+Computation time = 0.000241 seconds
+Interactions computed: 65280
+  Nb interactions / second: 270825089.139
+  Gflop/s = 3.114 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 0.500000 (5) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 0.600000 (6) 
+Interactions computed: 65280
+Computation time = 0.000233 seconds
+Interactions computed: 65280
+  Nb interactions / second: 279963359.018
+  Gflop/s = 3.220 (11.5 flop with mutual) 
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000011115617,	0.000000025101144,	0.000000000183718)
+
+#######################################################################
+Time now ( Step number) : 0.600000 (6) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 0.700000 (7) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000022196218,	-0.000000033605602,	  Gflop/s = 3.353 (11.5 flop with mutual) 
+-0.000000002341039)
+
+#######################################################################
+Time now ( Step number) : 0.700000 (7) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000006930350,	-0.000000068868758,	
+#######################################################################
+Time now ( Step number) : 0.800000 (8) 
+0.000000013682893)
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 0.800000 (8) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000163822961,	0.000000003688911,	-0.000000013562385)
+
+#######################################################################
+Time now ( Step number) : 0.900000 (9) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 0.900000 (9) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 1.000000 (10) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000009335054,	-0.000000040005034,	0.000000143794750)
+
+#######################################################################
+Time now ( Step number) : 1.000000 (10) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000024039082,	0.000000049390565,	0.000000006819391)
+
+#######################################################################
+Time now ( Step number) : 1.100000 (11) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 1.100000 (11) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 1.200000 (12) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000010329131,	0.000000032358002,	-0.000000009537871)
+
+#######################################################################
+Time now ( Step number) : 1.300000 (13) 
+
+#######################################################################
+Time now ( Step number) : 1.200000 (12) 
+Computation time = 0.000224 seconds
+Computation time = 0.000240 seconds
+Interactions computed: 65280
+  Nb interactions / second: 272171138.290
+  Gflop/s = 3.130 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000028188879,	0.000000011976226,	0.000000014102625)
+
+#######################################################################
+Time now ( Step number) : 1.300000 (13) 
+
+#######################################################################
+Time now ( Step number) : 1.400000 (14) 
+Computation time = 0.000238 seconds
+Interactions computed: 65280
+  Nb interactions / second: 274352870.862
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+  Gflop/s = 3.155 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 1.500000 (15) 
+sum (Fx, Fy, Fz) = (-0.000000005617949,	0.000000029385774,Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+	-0.000000000305590)
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 1.400000 (14) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000001568878,	0.000000015821513,	-0.000000003019935)
+
+#######################################################################
+Time now ( Step number) : 1.600000 (16) 
+
+#######################################################################
+Time now ( Step number) : 1.500000 (15) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+sum (Fx, Fy, Fz) = (0.000000004872845,	0.000000002195804,	  Gflop/s = 3.353 (11.5 flop with mutual) 
+-0.000000001325247)
+
+#######################################################################
+Time now ( Step number) : 1.600000 (16) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 1.700000 (17) 
+Computation time = 0.000245 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 266346464.125
+  Gflop/s = 3.063 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000009873020,	-0.000000010248755,	0.000000001036085)
+
+#######################################################################
+Time now ( Step number) : 1.700000 (17) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 1.800000 (18) 
+Computation time = 0.000241 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 270825089.139
+  Gflop/s = 3.114 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000005052243,	0.000000004803908,	0.000000002427555)
+
+#######################################################################
+Time now ( Step number) : 1.800000 (18) 
+
+#######################################################################
+Time now ( Step number) : 1.900000 (19) 
+Computation time = 0.000255 seconds
+Interactions computed: 65280
+  Nb interactions / second: 256131117.979
+  Gflop/s = 2.946 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+sum (Fx, Fy, Fz) = (0.000000000522277,	0.000000002490566,	  Gflop/s = 3.350 (11.5 flop with mutual) 
+-0.000000010817814)
+
+#######################################################################
+Time now ( Step number) : 2.000000 (20) 
+
+#######################################################################
+Time now ( Step number) : 1.900000 (19) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+sum (Fx, Fy, Fz) = (-0.000000003640139,	-0.000000006268692,  Gflop/s = 3.350 (11.5 flop with mutual) 
+	0.000000003041009)
+
+#######################################################################
+Time now ( Step number) : 2.000000 (20) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 2.100000 (21) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000260 seconds
+Interactions computed: 65280
+  Nb interactions / second: 251196481.761
+  Gflop/s = 2.889 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000003206253,	-0.000000000819568,	-0.000000000942237)
+
+#######################################################################
+Time now ( Step number) : 2.100000 (21) 
+
+#######################################################################
+Time now ( Step number) : 2.200000 (22) 
+Computation time = 0.000224 seconds
+Computation time = 0.000239 seconds
+Interactions computed: 65280
+  Nb interactions / second: 273257649.820
+  Gflop/s = 3.142 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000002839158,	-0.000000003908383,	0.000000003456648)
+
+#######################################################################
+Time now ( Step number) : 2.200000 (22) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 2.300000 (23) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000014776532,	0.000000005494144,	0.000000004377114)
+
+#######################################################################
+Time now ( Step number) : 2.300000 (23) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 2.400000 (24) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000001564686,	0.000000000721343,	-0.000000004026901)
+
+#######################################################################
+Time now ( Step number) : 2.400000 (24) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 2.500000 (25) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000009728119,	0.000000011045358,	-0.000000002817671)
+
+#######################################################################
+Time now ( Step number) : 2.500000 (25) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 2.600000 (26) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+sum (Fx, Fy, Fz) = (-0.000000002877542,	-0.000000020634275,	  Gflop/s = 3.350 (11.5 flop with mutual) 
+-0.000000007676363)
+
+#######################################################################
+Time now ( Step number) : 2.700000 (27) 
+
+#######################################################################
+Time now ( Step number) : 2.600000 (26) 
+Computation time = 0.000224 seconds
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000000471573,	0.000000001577746,	0.000000005990501)
+
+#######################################################################
+Time now ( Step number) : 2.700000 (27) 
+
+#######################################################################
+Time now ( Step number) : 2.799999 (28) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000008982013,	0.000000006684722,	-0.000000001803357)
+
+#######################################################################
+Time now ( Step number) : 2.899999 (29) 
+Computation time = 0.000238 seconds
+Interactions computed: 65280
+  Nb interactions / second: 274078243.363
+  Gflop/s = 3.152 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 2.799999 (28) 
+Computation time = 0.000238 seconds
+Interactions computed: 65280
+  Nb interactions / second: 274078243.363
+  Gflop/s = 3.152 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000012057853,	-0.000000001315470,	0.000000005584695)
+
+#######################################################################
+Time now ( Step number) : 2.899999 (29) 
+Computation time = 0.000223 seconds
+
+#######################################################################
+Time now ( Step number) : 2.999999 (30) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 292525817.436
+  Gflop/s = 3.364 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000003975060,	0.000000001868059,	0.000000000549790)
+
+#######################################################################
+Time now ( Step number) : 2.999999 (30) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 3.099999 (31) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+sum (Fx, Fy, Fz) = (-0.000000002718593,	0.000000009708913,  Gflop/s = 3.353 (11.5 flop with mutual) 
+	-0.000000008126705)
+
+#######################################################################
+Time now ( Step number) : 3.199999 (32) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 3.099999 (31) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000009942937,	-0.000000005434373,	0.000000006017189)
+
+#######################################################################
+Time now ( Step number) : 3.199999 (32) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 3.299999 (33) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000004591982,	-0.000000002599279,	0.000000012526371)
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 3.399999 (34) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 3.299999 (33) 
+Computation time = 0.000247 seconds
+Interactions computed: 65280
+  Nb interactions / second: 264289734.672
+  Gflop/s = 3.039 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000000224375,	0.000000005663452,	-0.000000004091021)
+
+#######################################################################
+Time now ( Step number) : 3.499999 (35) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 3.399999 (34) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000001353442,	-0.000000006084326,	0.000000000998739)
+
+#######################################################################
+Time now ( Step number) : 3.599999 (36) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 3.499999 (35) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000000507072,	-0.000000003648012,	0.000000008725477)
+
+#######################################################################
+Time now ( Step number) : 3.699999 (37) 
+Computation time = 0.000246 seconds
+Interactions computed: 65280
+  Nb interactions / second: 265314113.488
+
+#######################################################################
+Time now ( Step number) : 3.599999 (36) 
+  Gflop/s = 3.051 (11.5 flop with mutual) 
+Computation time = 0.000239 seconds
+Interactions computed: 65280
+  Nb interactions / second: 273257649.820
+  Gflop/s = 3.142 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000008609106,	0.000000003782585,	-0.000000008238743)
+
+#######################################################################
+Time now ( Step number) : 3.799999 (38) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 3.699999 (37) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000000719268,	-0.000000009465623,	-0.000000012208105)
+
+#######################################################################
+Time now ( Step number) : 3.899998 (39) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 3.799999 (38) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 3.999998 (40) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000009730065,	0.000000004298826,	-0.000000000878117)
+
+#######################################################################
+Time now ( Step number) : 3.899998 (39) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000002536046,	0.000000002858144,	-0.000000003863590)
+
+#######################################################################
+Time now ( Step number) : 4.099998 (41) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 3.999998 (40) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 4.199998 (42) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+sum (Fx, Fy, Fz) = (0.000000004131563,	0.000000003326321,	0.000000005709637)
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 4.099998 (41) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000012940550,	-0.000000003276988,	-0.000000000665608)
+
+#######################################################################
+Time now ( Step number) : 4.299998 (43) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 4.199998 (42) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 4.399998 (44) 
+Computation time = 0.000238 seconds
+Interactions computed: 65280
+  Nb interactions / second: 274352870.862
+  Gflop/s = 3.155 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000001007002,	-0.000000007251643,	0.000000000152923)
+
+#######################################################################
+Time now ( Step number) : 4.299998 (43) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000002651124,	-0.000000003031914,	-0.000000002813266)
+
+#######################################################################
+Time now ( Step number) : 4.499998 (45) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 4.399998 (44) 
+
+#######################################################################
+Time now ( Step number) : 4.599998 (46) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000238 seconds
+Interactions computed: 65280
+  Nb interactions / second: 274352870.862
+  Gflop/s = 3.155 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000005967550,	-0.000000002693668,	0.000000000465576)
+
+#######################################################################
+Time now ( Step number) : 4.499998 (45) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 4.699998 (47) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+sum (Fx, Fy, Fz) = (-0.000000009304838,	-0.000000004227203,	-0.000000010168037)
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 4.599998 (46) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 4.799998 (48) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000000663462,	0.000000003460702,	0.000000002271811)
+
+#######################################################################
+Time now ( Step number) : 4.699998 (47) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 4.899998 (49) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000010255569,	0.000000002404569,	-0.000000009452918)
+
+#######################################################################
+Time now ( Step number) : 4.799998 (48) 
+
+#######################################################################
+Time now ( Step number) : 4.999998 (50) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+Computation time = 0.000253 seconds
+Interactions computed: 65280
+  Nb interactions / second: 258062361.093
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+  Gflop/s = 2.968 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000000248598,	0.000000002289269,	0.000000001124391)
+
+#######################################################################
+Time now ( Step number) : 4.899998 (49) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 5.099998 (51) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+sum (Fx, Fy, Fz) = (-0.000000007471883,	0.000000003042928,	-0.000000004954984)
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 4.999998 (50) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000004979725,	-0.000000003337426,	-0.000000001520377)
+
+#######################################################################
+Time now ( Step number) : 5.199997 (52) 
+Computation time = 0.000265 seconds
+Interactions computed: 65280
+  Nb interactions / second: 246226767.194
+  Gflop/s = 2.832 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 5.099998 (51) 
+
+#######################################################################
+Time now ( Step number) : 5.299997 (53) 
+Computation time = 0.000224 seconds
+Computation time = 0.000239 seconds
+Interactions computed: 65280
+  Nb interactions / second: 272985209.492
+  Gflop/s = 3.139 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000000082707,	0.000000002957847,	0.000000000382827)
+
+#######################################################################
+Time now ( Step number) : 5.199997 (52) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 5.399997 (54) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000009046254,	-0.000000002535558,	0.000000000147352)
+
+#######################################################################
+Time now ( Step number) : 5.299997 (53) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 5.499997 (55) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000000790820,	0.000000005831282,	0.000000001200533)
+
+#######################################################################
+Time now ( Step number) : 5.399997 (54) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 5.599997 (56) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000005015494,	0.000000006177743,	-0.000000007462518)
+
+#######################################################################
+Time now ( Step number) : 5.499997 (55) 
+Computation time = 0.000225 seconds
+
+#######################################################################
+Time now ( Step number) : 5.699997 (57) 
+Interactions computed: 65280
+  Nb interactions / second: 290046785.085
+  Gflop/s = 3.336 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+sum (Fx, Fy, Fz) = (0.000000002987626,	0.000000003511882,	-0.000000000054484)
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+
+#######################################################################
+Time now ( Step number) : 5.599997 (56) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 5.799997 (58) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000002025153,	-0.000000001430266,	  Gflop/s = 3.350 (11.5 flop with mutual) 
+-0.000000002009607)
+
+#######################################################################
+Time now ( Step number) : 5.699997 (57) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 5.899997 (59) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000002149193,	0.000000000294989,	-0.000000006532311)
+
+#######################################################################
+Time now ( Step number) : 5.799997 (58) 
+Computation time = 0.000224 seconds
+
+#######################################################################
+Time now ( Step number) : 5.999997 (60) 
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+Computation time = 0.000238 seconds
+Interactions computed: 65280
+  Nb interactions / second: 274078243.363
+  Gflop/s = 3.152 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000001130338,	0.000000004890964,	-0.000000005186344)
+
+#######################################################################
+Time now ( Step number) : 5.899997 (59) 
+
+#######################################################################
+Time now ( Step number) : 6.099997 (61) 
+Computation time = 0.000238 seconds
+Interactions computed: 65280
+  Nb interactions / second: 274352870.862
+  Gflop/s = 3.155 (11.5 flop with mutual) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+sum (Fx, Fy, Fz) = (-0.000000000208431,	-0.000000000709264,  Gflop/s = 3.353 (11.5 flop with mutual) 
+	-0.000000001718256)
+
+#######################################################################
+Time now ( Step number) : 5.999997 (60) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291591230.160
+  Gflop/s = 3.353 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (0.000000005363773,	0.000000003380208,	0.000000001846686)
+
+#######################################################################
+Time now ( Step number) : 6.099997 (61) 
+Computation time = 0.000224 seconds
+Interactions computed: 65280
+  Nb interactions / second: 291281026.723
+  Gflop/s = 3.350 (11.5 flop with mutual) 
+sum (Fx, Fy, Fz) = (-0.000000001788187,	0.000000000524963,	0.000000008714999)
