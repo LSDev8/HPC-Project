@@ -95,7 +95,7 @@ bodies_Compute_own_interaction(bodies_t *FMB_RESTRICT p_b){
     fiy = p_fy[i];
     fiz = p_fz[i];
 
-#pragma omp parallel for private(pjx, pjy, pjz, val_j) reduction(+ : fix, fiy, fiy)
+#pragma omp parallel for private(pjx, pjy, pjz, val_j) reduction(+ : fix, fiy, fiz)
     for (j=i+1;	 j<n;	 j++){
       pjx = p_px[j];
       pjy = p_py[j];
